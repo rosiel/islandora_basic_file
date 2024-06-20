@@ -1,0 +1,11 @@
+name: 'Islandora Basic File'
+description: 'Configuration to create Binary Islandora objects.'
+type: 'islandora'
+install:
+  - context
+  - media
+  - islandora
+config:
+  install:
+    media: '*'
+

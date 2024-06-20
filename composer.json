@@ -1,0 +1,14 @@
+{
+  "name": "islandora/islandora_basic_file",
+  "description": "Drupal Recipe sets up the File media type.",
+  "type": "drupal-recipe",
+  "require": {
+    "drupal/context": "^5@RC",
+    "drupal/core": "^10.2 | ^11",
+    "drupal/islandora": "^2.12",
+    "islandora/islandora_content_types": "dev-main"
+  },
+  "suggest": {
+  },
+  "license": "GPL-2.0-or-later"
+}
