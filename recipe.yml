@@ -1,6 +1,8 @@
 name: 'Islandora Basic File'
 description: 'Configuration to create Binary Islandora objects.'
 type: 'islandora'
+recipes:
+  - islandora_content_types
 install:
   - context
   - media
