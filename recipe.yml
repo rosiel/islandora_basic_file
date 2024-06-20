@@ -6,6 +6,6 @@ install:
   - media
   - islandora
 config:
-  install:
+  import:
     media: '*'
 
